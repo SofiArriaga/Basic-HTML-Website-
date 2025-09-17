@@ -1,0 +1,31 @@
+nav {
+    float: right;
+
+}
+.boldCursive{
+    font-weight: bold;
+    font-style: italic;
+}
+ul {
+  list-style-type: none; 
+  padding-left: 0;       
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+
+}
+.column {
+  padding: 10px;
+  border-right: 1px solid #000000; 
+}
+
+.column:last-child {
+  border-right: none;
+}
